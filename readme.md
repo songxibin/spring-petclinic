@@ -8,7 +8,7 @@ Once the workspace is ready, it will follow the steps defined in the workflow fi
 # 1. Checkout the code
 # 2. Setup Java 
 # 3. Compile the code
-Package code
+# 3-1. Package code
 # 4. Run tests
 # 5. Build Docker image
 # 6. Log in to JFrog Artifactory Docker registry
