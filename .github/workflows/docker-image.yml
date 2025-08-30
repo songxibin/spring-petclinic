@@ -35,7 +35,7 @@ jobs:
 
       # 5. Build Docker image
       - name: Build Docker image
-        run: docker build . my-app:latest|
+        run: docker build . my-app:latest
          # ./mvnw spring-boot:build-image -Dspring-boot.build-image.imageName=${{ secrets.ARTIFACTORY_REPO }}/my-app:latest
 
       # 6. Log in to JFrog Artifactory Docker registry
